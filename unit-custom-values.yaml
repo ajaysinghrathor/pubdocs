@@ -1,0 +1,16 @@
+componentConfigs:
+  - name: ui-backend
+    resources:
+      requests:
+        memory: 4000Mi
+        cpu: 600m
+      limits: 
+        memory: 4000Mi
+  - name: appdata-legacy-converter
+    resources:
+      requests:
+        memory: 3000Mi
+        cpu: 250m
+      limits: 
+        cpu: "2"
+        memory: 3000Mi

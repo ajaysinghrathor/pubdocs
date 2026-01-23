@@ -1,0 +1,8 @@
+componentConfigs:
+  - name: groundskeeper
+    resources:
+      requests:
+        memory: 1600Mi
+        cpu: 300m
+      limits: 
+        memory: 1600Mi
